@@ -1,0 +1,8 @@
+This is a sample test script that supposed to be executed as part of Android application
+
+|script|fixtures.SayHelloFixture|
+|i say |hello            |
+|waiting for answer      |
+|check|answer   |hello  |
+
+

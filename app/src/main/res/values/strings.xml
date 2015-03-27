@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Fitnesse Example</string>
+    <string name="title_activity_default">DefaultActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
