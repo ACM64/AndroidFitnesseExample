@@ -1,7 +1,7 @@
 !contents -R2 -g -p -f -h
 
 !define TEST_SYSTEM {slim}
-!define SLIM_VERSION {0.4}
+!define SLIM_VERSION {0.5}
 !define SLIM_HOST {localhost}
 !define SLIM_PORT {8099}
 !define slim.pool.size {1}
