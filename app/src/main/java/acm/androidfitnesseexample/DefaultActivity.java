@@ -1,10 +1,10 @@
 package acm.androidfitnesseexample;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.widget.TextView;
 
-public class DefaultActivity extends ActionBarActivity implements MessageInterface {
+public class DefaultActivity extends Activity implements MessageInterface {
 
     private TextView mMessage;
 
@@ -12,7 +12,7 @@ public class DefaultActivity extends ActionBarActivity implements MessageInterfa
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_default);
-        mMessage = (TextView) findViewById(R.id.message);
+        mMessage = findViewById(R.id.message);
     }
 
     @Override
